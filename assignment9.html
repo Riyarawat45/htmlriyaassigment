@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Job Application Form</title>
+</head>
+<body>
+
+    <h1>Job Application Form</h1>
+
+    <p>Apply for the Junior Web Developer position.</p>
+
+    <form action="#" method="post"
+          enctype="multipart/form-data">
+
+        <h2>Personal Information</h2>
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone"
+               pattern="[0-9]{10}" required>
+        <br><br>
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city">
+        <br><br>
+
+        <h2>Job Details</h2>
+
+        <label for="position">Position:</label>
+
+        <select id="position" name="position" required>
+            <option value="">Select Position</option>
+            <option value="web-developer">Web Developer</option>
+            <option value="frontend-intern">Frontend Intern</option>
+            <option value="software-intern">Software Intern</option>
+        </select>
+
+        <br><br>
+
+        <label for="experience">Experience:</label>
+
+        <select id="experience" name="experience" required>
+            <option value="">Select Experience</option>
+            <option value="fresher">Fresher</option>
+            <option value="1-year">Less than 1 Year</option>
+            <option value="2-years">1-2 Years</option>
+        </select>
+
+        <br><br>
+
+        <label for="skills">Technical Skills:</label>
+        <br>
+
+        <textarea id="skills" name="skills"
+                  rows="4" cols="35"
+                  placeholder="Enter your technical skills"
+                  required></textarea>
+
+        <br><br>
+
+        <label for="resume">Upload Resume:</label>
+        <input type="file" id="resume" name="resume"
+               accept=".pdf">
+
+        <br><br>
+
+        <label for="cover">Cover Letter:</label>
+        <br>
+
+        <textarea id="cover" name="cover"
+                  rows="5" cols="35"
+                  placeholder="Tell us about yourself"></textarea>
+
+        <br><br>
+
+        <input type="checkbox" id="declaration"
+               name="declaration" required>
+
+        <label for="declaration">
+            I confirm that the information is correct.
+        </label>
+
+        <br><br>
+
+        <button type="submit">Submit Application</button>
+        <button type="reset">Reset Form</button>
+
+    </form>
+
+</body>
+</html>
