@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First HTML Page</title>
+</head>
+<body>
+
+    <h1>Welcome to My Webpage</h1>
+
+    <h2>About HTML</h2>
+    <p>HTML stands for HyperText Markup Language.</p>
+
+    <h2>About Me</h2>
+    <p>My name is Riya Rawat.</p>
+    <p>I am pursuing BCA Artificial Intelligence.</p>
+
+    <h3>My Learning Goals</h3>
+    <p>I want to become an AI Engineer.</p>
+
+</body>
+</html>
